@@ -61,7 +61,7 @@ $ npm start to run the local server
 
 ## Authors
 
-👤 **Nicholas Emmanuel**
+👤 **Piesie Omane**
 
 - GitHub: [@piesieomane](https://github.com/piesieomane)
 - Twitter: [@piesieyeboah](https://twitter.com/piesieyeboah)
