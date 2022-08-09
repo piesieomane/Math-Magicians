@@ -7,22 +7,30 @@
 
 .calcCenter {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  padding: 0;
+  padding: 20px;
+  padding-top: 50px;
   border-radius: 0;
   box-sizing: border-box;
   width: 100%;
+  background: linear-gradient(45deg, #fe6b8b 30%, #ff8e53 90%);
+  height: 100vh;
+}
+
+.calcCenter h1 {
+  font-size: 3rem;
+  margin: 0;
 }
 
 .mainCalculator {
-  margin: 100px auto;
   padding: 0;
   border-radius: 0;
   box-sizing: border-box;
   width: 50%;
+  margin-left: auto;
 }
 
 .one,

@@ -1,0 +1,56 @@
+.navFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #ccc;
+}
+
+.navFlex h1 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+.navFlex h1:hover {
+  cursor: pointer;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  color: #333;
+  gap: 1rem;
+}
+
+.navItem li {
+  list-style: none;
+}
+
+.Nav_link:link {
+  color: #333;
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  text-decoration: none;
+  list-style: none;
+}
+
+.Nav_link:visited {
+  color: #333;
+}
+
+.Nav_link:hover {
+  color: #fe6b8b;
+}
+
+.Nav_link:active {
+  color: teal;
+}
+
+.activeRoute {
+  background-color: yellow;
+  border-bottom: 0.4rem solid teal;
+  cursor: not-allowed;
+}
