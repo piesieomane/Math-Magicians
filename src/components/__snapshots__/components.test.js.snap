@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly 1`] = `
+<div
+  className="calcCenter"
+>
+  <h1>
+    Let's do some maths
+  </h1>
+  <div
+    class="mainCalculator"
+  >
+    <div
+      className="screen-row"
+      onChange={[Function]}
+    >
+      0
+    </div>
+    <div
+      className="button-row one"
+    >
+      <input
+        onClick={[Function]}
+        type="button"
+        value="AC"
+      />
+      <input
+        onClick={[Function]}
+        type="button"
+        value="+/-"
+      />
+      <input
+        onClick={[Function]}
+        type="button"
+        value="%"
+      />
+      <input
+        className="orange"
+        onClick={[Function]}
+        type="button"
+        value="÷"
+      />
+    </div>
+    <div
+      className="button-row two"
+    >
+      <input
+        onClick={[Function]}
+        type="button"
+        value="7"
+      />
+      <input
+        onClick={[Function]}
+        type="button"
+        value="8"
+      />
+      <input
+        onClick={[Function]}
+        type="button"
+        value="9"
+      />
+      <input
+        className="orange"
+        onClick={[Function]}
+        type="button"
+        value="*"
+      />
+    </div>
+    <div
+      className="button-row three"
+    >
+      <input
+        onClick={[Function]}
+        type="button"
+        value="4"
+      />
+      <input
+        onClick={[Function]}
+        type="button"
+        value="5"
+      />
+      <input
+        onClick={[Function]}
+        type="button"
+        value="6"
+      />
+      <input
+        className="orange"
+        onClick={[Function]}
+        type="button"
+        value="-"
+      />
+    </div>
+    <div
+      className="button-row four"
+    >
+      <input
+        onClick={[Function]}
+        type="button"
+        value="1"
+      />
+      <input
+        onClick={[Function]}
+        type="button"
+        value="2"
+      />
+      <input
+        onClick={[Function]}
+        type="button"
+        value="3"
+      />
+      <input
+        className="orange"
+        onClick={[Function]}
+        type="button"
+        value="+"
+      />
+    </div>
+    <div
+      className="button-row five"
+    >
+      <input
+        className="zero"
+        onClick={[Function]}
+        type="button"
+        value="0"
+      />
+      <input
+        onClick={[Function]}
+        type="button"
+        value="."
+      />
+      <input
+        className="orange"
+        onClick={[Function]}
+        type="button"
+        value="="
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders correctly 1`] = `
+<div
+  className="home"
+>
+  <h1>
+    Welcome to our page!
+  </h1>
+  <p>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore veritatis animi excepturi explicabo reiciendis, quaerat vitae saepe quam impedit expedita suscipit ut, blanditiis neque voluptate voluptatibus. Veritatis excepturi dolor ut!
+  </p>
+  <p>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore veritatis animi excepturi explicabo reiciendis, quaerat vitae saepe quam impedit expedita suscipit ut, blanditiis neque voluptate voluptatibus. Veritatis excepturi dolor ut!
+  </p>
+</div>
+`;
+
+exports[`renders correctly 2`] = `
+<div
+  className="quote_home"
+>
+  <p>
+    Mathematics is not about numbers, equations, computations, or algorithms: it is about understaning. -William Paul Thurston
+  </p>
+</div>
+`;
