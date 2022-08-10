@@ -23,10 +23,10 @@ it("render correctly", () => {
   expect(tree).toMatchSnapshot();
 });
 
-// it("renders correctly", () => {
-//   <Router>
-//     const tree = renderer.create(
-//     <Nav />
-//     ).toJSON(); expect(tree).toMatchSnapshot();
-//   </Router>;
-// });
+it("renders correctly", () => {
+  < Router >
+    const tree = renderer.create(
+    <Nav />
+    ).toJSON(); expect(tree).toMatchSnapshot();
+  </ Router>;
+});
