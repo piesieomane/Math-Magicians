@@ -57,7 +57,7 @@ $ npm start to run the local server
 
 ## Click here for live version
 
-- live demo: [coming soon]()
+- live demo: [Netlify](https://clinquant-taiyaki-41e17a.netlify.app/)
 
 ## Authors
 
