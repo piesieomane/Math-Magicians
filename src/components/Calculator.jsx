@@ -1,13 +1,12 @@
-/* eslint-disable */
-import React, { useState } from "react";
-import "./Calculator.css";
-import calculate from "../logic/calculate";
+import React, { useState } from 'react';
+import './Calculator.css';
+import calculate from '../logic/calculate';
 
 const Calculator = () => {
   const [state, setState] = useState({ total: 0, next: null, operation: null });
 
   const clickHandler = (e) => {
-    const value = e.target.value;
+    const { value } = e.target;
     const result = calculate(state, value);
     setState(result);
   };
@@ -21,8 +20,8 @@ const Calculator = () => {
   const { total, next, operation } = state;
   return (
     <div className="calcCenter">
-      <h1>Let's do some maths</h1>
-      <div class="mainCalculator">
+      <h1>Let&apos;s do some maths</h1>
+      <div className="mainCalculator">
         <div className="screen-row" onChange={displayResult}>
           {total}
           {operation}
