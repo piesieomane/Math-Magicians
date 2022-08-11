@@ -4,7 +4,7 @@ import styles from "./Home.module.css";
 
 const Home = () => {
   return (
-    <div className={styles.home}>
+    <div className={styles.home} data-testid={"home-link"}>
       <h1>Welcome to our page!</h1>
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore

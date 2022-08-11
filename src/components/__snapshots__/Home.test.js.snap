@@ -3,6 +3,7 @@
 exports[`renders correctly 1`] = `
 <div
   className="home"
+  data-testid="home-link"
 >
   <h1>
     Welcome to our page!
